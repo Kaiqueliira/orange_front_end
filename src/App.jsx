@@ -1,11 +1,8 @@
 import Home from "./Pages/Home";
+import RoutesOrange from "./Routes/RoutesOrange";
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <RoutesOrange />;
 }
 
 export default App;
