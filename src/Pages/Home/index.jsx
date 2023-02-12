@@ -6,6 +6,7 @@ import Stack from "@mui/material/Stack";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { Link as LinkNavigation } from "react-router-dom";
 import NavBar from "../../Components/NavBar";
 
 function Copyright() {
@@ -59,7 +60,9 @@ export default function Home() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Cursos</Button>
+              <LinkNavigation to="/Trail">
+                <Button variant="contained">Cursos</Button>
+              </LinkNavigation>
             </Stack>
           </Container>
         </Box>
