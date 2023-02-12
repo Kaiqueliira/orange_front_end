@@ -1,13 +1,7 @@
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
-import Stack from "@mui/material/Stack";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
-import { Link as LinkNavigation } from "react-router-dom";
-import NavBar from "../../Components/NavBar";
 
 export default function Footer(params) {
   function Copyright() {
