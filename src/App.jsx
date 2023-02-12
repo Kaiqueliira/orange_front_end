@@ -1,4 +1,3 @@
-import Home from "./Pages/Home";
 import RoutesOrange from "./Routes/RoutesOrange";
 
 function App() {
